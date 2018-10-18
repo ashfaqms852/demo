@@ -1,0 +1,25 @@
+.dr-progress {
+    height: 35px;
+}
+
+.dr-progress .skill {
+    font: bolder 14px;
+    /*text-transform: uppercase;*/
+    color: black;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.val {
+    float: right;
+    padding-right: 10px;
+}
+.dr-progress-bar {
+    text-align: left;
+    transition-duration: 5s;
+    background-color: #C15142;
+}
+
+.skill-items {
+    padding: 10% 5%;
+}

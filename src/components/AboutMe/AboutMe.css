@@ -1,0 +1,20 @@
+.about-me {
+    padding: 50px;  
+    background-color: #c0aba5;
+}
+
+.about-me-content {
+    padding: 2% 3%;
+}
+
+.about-me-content > p {
+    line-height: 3vh;
+}
+
+.download-resume {
+    padding: 5%;
+}
+
+.love-anchor {
+    color: #C15142;
+}

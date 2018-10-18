@@ -1,0 +1,26 @@
+.custom-button {
+    background-color: #C15142;
+}
+
+.custom-button:hover {
+    background-color: #d38378;
+}
+
+.custom-image {
+    border-radius: 100%;
+    width: 80%;
+    padding: 20% 5%;
+    margin-left: 10%;
+}
+
+.resume {
+    background-color: white;
+}
+
+.resume-section {
+    padding: 20px 0px;
+}
+
+.resume-item {
+    padding: 5%;
+}

@@ -1,0 +1,17 @@
+nav {
+    background-color: #C15142;
+}
+
+.nav-list-center {
+    margin: 0 auto;
+}
+
+.dr-nav-link {
+    color: #907065;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+
+.dr-nav-link:hover {
+    color: #c0aca5;
+}

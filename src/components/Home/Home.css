@@ -1,0 +1,57 @@
+header {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url('./home-background.jpg') no-repeat top center;
+    background-size: cover !important;
+     -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.home-content {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.home-content > h1 {
+    color: 	#C64A3E;
+    font-size: 10vw;
+}
+
+.home-content > p {
+    color: #c0aca5;
+    margin: 0 auto;
+}
+
+/* header social links */
+header .social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+ }
+header .social li a, header .scrolldown a { color: #fff; }
+header .social li a:hover, header .scrolldown a:hover { color: #C15142; }
+
+@media only screen and (min-width: 1024px) {
+    .home-content {
+        width: 60%;
+    }
+    .home-content > h1 {
+        font-size: 5vw;
+    }
+    
+    .home-content > p {
+        font-size: 3.5vh;
+    }
+
+}
