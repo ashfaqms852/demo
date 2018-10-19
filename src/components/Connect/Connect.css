@@ -1,0 +1,47 @@
+.connect {
+    padding: 50px;  
+    background-color: #c0aba5;
+}
+
+.form-contents {
+    padding: 20px;
+}
+
+.form-field {
+   padding: 10px;
+}
+
+.custom-input-field {
+   background: transparent;
+   border-bottom-color: #C15142;
+   border-bottom-width: 3px;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-left-width: 0px;
+   border-radius: 0px;
+}
+
+.custom-input-field:focus {
+   outline: 0 none;
+   box-shadow: none;
+   background: transparent;
+   border-color: #d38378;
+   border-width: 3px;
+   border-radius: 0px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+   color: black !important;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+color: black !important;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: black !important;
+}
+
+input::placeholder, textarea::placeholder {
+color: black !important;
+}

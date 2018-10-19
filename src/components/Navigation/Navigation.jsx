@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Navigation.css';
+import parentclasses from './../../App.css';
 import cx from 'classnames';
 
 const navigation = () => {
@@ -11,7 +12,7 @@ const navigation = () => {
                 <span className="navbar-toggler-icon" />
                 </button>
                 <div className={cx("collapse", "navbar-collapse", "navbar-sticky-top")} id="navbarSupportedContent">
-                    <ul className={cx("navbar-nav", "mr-auto", classes["nav-list-center"])}>
+                    <ul className={cx("navbar-nav", "mr-auto", parentclasses["custom-align-center"])}>
                         <li className="nav-item">
                             <a className={cx("nav-link", classes["dr-nav-link"])} href="#home">Home <span className="sr-only">(current)</span></a>
                         </li>

@@ -7,7 +7,7 @@ import cx from 'classnames';
 const aboutme = () => {
 
     return (
-        <div className={cx("container-fluid", classes["about-me"])} id="about">
+        <div className={cx("container-fluid", parentclasses["custom-section"])} id="about">
             <div className="container">
                 <div className="row">
                 <div className={ cx("col-lg-3", "col-md-3", "col-sm-3", "col-xs-12") }>
