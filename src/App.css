@@ -24,3 +24,31 @@
 .resume-item {
     padding: 5%;
 }
+
+.custom-align-center {
+    margin: 0 auto;
+}
+
+.custom-section {
+    padding: 50px;  
+    background-color: #c0aba5;
+}
+
+.go-to-top {
+    display: none;
+    position: fixed; 
+    bottom: 160px;
+    right: 5px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    color: #C15142; 
+    cursor: pointer; 
+    border-radius: 100%;
+    background-color: transparent;
+
+}
+
+.go-to-top:hover {
+    background-color: #d38378;
+}
