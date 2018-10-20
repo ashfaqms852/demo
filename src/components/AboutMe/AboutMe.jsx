@@ -16,7 +16,9 @@ const aboutme = () => {
                 <div className={ cx("col-lg-9", "col-md-9", "col-sm-9", "col-xs-12", classes["about-me-content"]) }>
                     <h1>About Me</h1>
                     <p> 
-                    Hi, I'm Ashfaq. I put people's ideas and imaginations on a web-browser for a living. Behind the scenes, I also get my hands dirty with APIs, databases and server management. 
+                    Hi, I'm Ashfaq. I put people's ideas and imaginations on a web-browser for a living. Behind the scenes, I also get my hands dirty with APIs, databases and server management.
+                    </p>
+                    <p> 
                     To kill the rest of my time, I binge-watch TV shows, read tech-related blogs and answers from my favorite Quorans and watch as many soccer matches as I can. 
                     I am a big Chelsea FC fan, if you like them too, we have lot to talk about. I also like to keep myself updated about start-up news, international politics and latest technology trends.
                     </p>

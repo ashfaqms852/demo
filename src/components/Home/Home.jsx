@@ -58,21 +58,17 @@ class Home extends Component {
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
-    }
-
-    
+    }    
 
     render = () => { 
-    
     return (
 
         <header id = "home">
 
             <div className = {cx("align-items-center", classes["home-content"])}>
-                <h1 className = "typewrite" data-period = "2000" data-type = '[ "Ashfaq Sherwa", "Houston, TX based", "Full-Stack Developer"]'><span className = "wrap"></span></h1>
+                <h1 className = "typewrite" data-period = "2000" data-type = '[ "Ashfaq Sherwa", "Houston, TX based", "Full-Stack Developer" ]'><span className = "wrap"></span></h1>
                 <p>
-                    Expertise in developing engaging user-interfaces for web, creating REST APIs, 
-                    leveraging third-party APIs to setup automation/integration, databases and servers/hosting platforms.
+                    Expertise in developing engaging user-interfaces for web, creating REST APIs, leveraging third-party APIs to setup automation/integration, databases and servers/hosting platforms.
                 </p>
                 <hr/>
                 <ul className={ classes.social }>

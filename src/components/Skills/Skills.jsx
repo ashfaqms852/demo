@@ -143,11 +143,11 @@ class Skills extends Component {
     render = () => {
         
         return(
-            <div className="row" ref = { this.skillsRef } id = "skillss">
+            <div className="row">
                 <div className={ cx("col-lg-3", "col-md-3", "col-sm-3", "col-xs-12") }>
-                    <img className={ parentclasses["custom-image"] } alt="Education Icon" src={ SkillsIcon } />
+                    <img className={ parentclasses["custom-image"] } alt="Skills Icon" src={ SkillsIcon }/>
                 </div>
-                <div className={ cx("col-lg-9", "col-md-9", "col-sm-9", "col-xs-12") }>
+                <div className={ cx("col-lg-9", "col-md-9", "col-sm-9", "col-xs-12") } ref = { this.skillsRef }>
                     <div className={ classes["skill-items"] }>
                         {
                             this.state.skillsInfo.map( (val, index) => {
