@@ -13,8 +13,12 @@ import CustomFooter from './components/CustomFooter/CustomFooter';
 
 class App extends Component {
 
+  state = {
+    home: ''
+  }
+
   componentDidMount = () => {
-    window.onscroll = this.scrollFunction;    
+    window.onscroll = this.scrollFunction;
   }
 
   scrollFunction = () => {
