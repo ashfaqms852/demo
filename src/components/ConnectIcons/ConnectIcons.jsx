@@ -11,7 +11,7 @@ const connectIcons = () => {
                     <td className="text-center"><i className="fa fa-map-marker fa-3x" aria-hidden="true" /></td>
                     </tr>
                     <tr>
-                    <td className="text-center"><p><a href="https://www.google.com/maps/search/?api=1&query=houston+tx" target="_blank" 
+                    <td className="text-center"><p><a href="https://www.google.com/maps/search/?api=1&query=houston+tx" target="_blank" rel="noopener noreferrer"
                         className={ classes["black-anchor"] }>Houston, TX</a></p></td>
                     </tr>
                     <tr>

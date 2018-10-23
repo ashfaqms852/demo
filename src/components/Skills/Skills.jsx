@@ -70,7 +70,7 @@ class Skills extends Component {
                 (left + width) <= (window.pageXOffset + window.innerWidth)
             ) {
 
-                var temp = this.state.skillsInfo;
+                let temp = this.state.skillsInfo;
 
                 temp = [
                     {
@@ -104,7 +104,7 @@ class Skills extends Component {
                 });
             }
             else {
-                var temp = this.state.skillsInfo;
+                let temp = this.state.skillsInfo;
                 
                 temp = [
                     {
