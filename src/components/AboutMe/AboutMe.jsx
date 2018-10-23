@@ -27,13 +27,17 @@ const aboutme = () => {
                     <div className={ cx("col-lg-6", "col-md-6", "col-sm-6", "col-xs-12") }>
                         <h3>Interests-</h3>
                         <span>
-                        <i className="fa fa-futbol-o" aria-hidden="true" /> &nbsp;<a className={classes["love-anchor"]} href="https://en.wikipedia.org/wiki/Chelsea_F.C." target="_blank">Chelsea FC</a><br />
-                        <i className="fa fa-television" aria-hidden="true" /> &nbsp;<a className={classes["love-anchor"]} href="https://www.imdb.com/title/tt0306414/" target="blank">The Wire</a>,&nbsp; 
-                        <a className={classes["love-anchor"]} href="https://www.imdb.com/title/tt0903747" target="_blank">Breaking Bad</a><br />
-                        <i className="fa fa-music" aria-hidden="true" /> &nbsp;<a className={classes["love-anchor"]} href="https://en.wikipedia.org/wiki/A._R._Rahman" target="_blank">A.R. Rahman</a>,&nbsp; 
-                        <a className={classes["love-anchor"]} href="https://en.wikipedia.org/wiki/Amit_Trivedi" target="_blank">Amit Trivedi</a><br />
-                        <i className="fa fa-book" aria-hidden="true" /> &nbsp;<a className={classes["love-anchor"]} href="https://quora.com" target="_blank">Quora</a>,&nbsp; 
-                        <a className={classes["love-anchor"]} href="https://medium.com/" target="_blank">Medium</a><br />
+                        <i className="fa fa-futbol-o" aria-hidden="true" /> &nbsp;
+                            <a className={classes["love-anchor"]} href="https://en.wikipedia.org/wiki/Chelsea_F.C." target="_blank" rel="noopener noreferrer">Chelsea FC</a><br />
+                        <i className="fa fa-television" aria-hidden="true" /> &nbsp;
+                        <a className={classes["love-anchor"]} href="https://www.imdb.com/title/tt0306414/" target="blank" rel="noopener noreferrer">The Wire</a>,&nbsp; 
+                        <a className={classes["love-anchor"]} href="https://www.imdb.com/title/tt0903747" target="_blank" rel="noopener noreferrer">Breaking Bad</a><br />
+                        <i className="fa fa-music" aria-hidden="true" /> &nbsp;
+                        <a className={classes["love-anchor"]} href="https://en.wikipedia.org/wiki/A._R._Rahman" target="_blank" rel="noopener noreferrer">A.R. Rahman</a>,&nbsp; 
+                        <a className={classes["love-anchor"]} href="https://en.wikipedia.org/wiki/Amit_Trivedi" target="_blank" rel="noopener noreferrer">Amit Trivedi</a><br />
+                        <i className="fa fa-book" aria-hidden="true" /> &nbsp;
+                        <a className={classes["love-anchor"]} href="https://quora.com" target="_blank" rel="noopener noreferrer">Quora</a>,&nbsp; 
+                        <a className={classes["love-anchor"]} href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium</a><br />
                         </span>
                     </div>
                     <div className={ cx("col-lg-6", "col-md-6", "col-sm-6", "col-xs-12", classes["download-resume"]) }>

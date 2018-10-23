@@ -58,7 +58,7 @@ class App extends Component {
               <p className = { parentclasses["custom-align-center"] }>If you have any work opportunities for me, lets get in touch. If not, what's the harm in connecting? </p>
               <p className = { parentclasses["custom-align-center"] }>Maybe you hate Chelsea FC? Or you have some suggestions? Its easy to get along with me.</p>
             </div>
-            <hr/>
+      <hr/>
             <div className = "row">
               <Connect/>
               <ConnectIcons/>
