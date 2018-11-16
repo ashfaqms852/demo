@@ -7,10 +7,10 @@ const customFooter = () => {
         <footer>
             <div className={ cx("col-xs-12", "col-sm-12", "col-md-12", "col-lg-12") }>
                 <ul className={ classes["social-links"] }>
-                    <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                    <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                    <li><a href="#"><i className="fa fa-skype" /></a></li>
+                    <li><a href="https://facebook.com/AshfaqSherwa" target = "_blank"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/ashfaq852" target = "_blank"><i className="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ashfaqsherwa/" target = "_blank"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="skype:ashfaq.sherwa?chat" target = "_blank"><i className="fa fa-skype"></i></a></li>
                 </ul>
             </div>
             <div className={ cx("col-xs-12", "col-sm-12", "col-md-12", "col-lg-12") }>
