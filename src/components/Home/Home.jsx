@@ -72,10 +72,10 @@ class Home extends Component {
                 </p>
                 <hr/>
                 <ul className={ classes.social }>
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i className="fa fa-skype"></i></a></li>
+                    <li><a href="https://facebook.com/AshfaqSherwa" target = "_blank"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/ashfaq852" target = "_blank"><i className="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ashfaqsherwa/" target = "_blank"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="skype:ashfaq.sherwa?chat" target = "_blank"><i className="fa fa-skype"></i></a></li>
                 </ul>
                 <p className={ classes.scrolldown }>
                     <a className="smoothscroll" href="#about"><i className="fa fa-chevron-circle-down"></i></a>
