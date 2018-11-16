@@ -2,6 +2,7 @@ import React from 'react';
 import ProfilePicture from './../../assets/images/profile-pic.jpg';
 import parentclasses from './../../App.css';
 import classes from './AboutMe.css';
+import Resume from './../../assets/documents/resume.pdf';
 import cx from 'classnames';
 
 const aboutme = () => {
@@ -41,7 +42,7 @@ const aboutme = () => {
                         </span>
                     </div>
                     <div className={ cx("col-lg-6", "col-md-6", "col-sm-6", "col-xs-12", classes["download-resume"]) }>
-                        <button className={ cx("btn", parentclasses["custom-button"]) }><i className="fa fa-download" /> Download Resume</button>
+                        <a className={ cx("btn", parentclasses["custom-button"], classes["black-anchor"]) } target = "_blank" href = { Resume }><i className="fa fa-download" /> Download Resume</a>
                     </div>
                     </div>
                 </div>
